@@ -1,0 +1,56 @@
+@font-face {
+	font-family: open-sans;
+	src: url(../fonts/OpenSans.ttf);
+}
+
+html, body {
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: open-sans;
+}
+
+.login {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.login-form input {
+	margin: 10px 10px 10px 10px;
+	width: 260px;
+	height: 30px;
+	outline: none;
+	border: 1px solid rgb(207, 202, 202);
+	padding-left: 10px;
+	font-size: medium;
+
+}
+
+.form-title{
+	text-align: center;
+	color: rgba(32, 32, 32, 0.89);;
+}
+
+.form-submit{
+	background-color: rgba(110, 197, 83, 0.89);
+	color:aliceblue;
+	border:rgba(110, 197, 83, 0.89);
+	margin: 30px 10px 0 0;
+	width: 180px;
+	height: 35px;
+	font-size: large;
+}
+
+.form-submit:hover{
+	background-color:aliceblue;
+	color:rgba(110, 197, 83, 0.89);
+	border: 1px solid rgba(110, 197, 83, 0.89);
+}
